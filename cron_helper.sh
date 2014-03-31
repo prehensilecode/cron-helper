@@ -20,11 +20,11 @@ Arguments:
                EXITFILE, LOCKFILE, and LOGFILE to some simple default values.
                
                EXITFILE will be set to /var/run/\$USER/NAME.exit if
-               /var/log/\$USER exists, otherwise it will write to
+               /var/run/\$USER exists, otherwise it will write to
                /var/tmp/\$USER/NAME.exit
 
                LOCKFILE will be set to /var/run/\$USER/NAME.lock if
-               /var/log\$USER exists, otherwise it will write to
+               /var/run\$USER exists, otherwise it will write to
                /var/tmp/\$USER/NAME.lock
 
                LOGFILE will be set to /var/log/\$USER/NAME.log if
